@@ -1,0 +1,246 @@
+body {
+  background-color: black;
+}
+
+.key-innovations {
+  background-image: url(https://cdn.prod.website-files.com/66bc5b28373475f8a207a38f/66fdbca0bd944465185ff0d1_slider%20bottom.webp);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-top: 120px;
+  padding-bottom: 50px;
+  
+}
+
+.container.key-innovations {
+  background-image: none;
+  flex-flow: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+
+.container {
+  /* padding: 0px 100px 0px 100px; */
+  margin-left: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.w-layout-blockcontainer {
+  
+  margin-left: 100px;
+  margin-right: auto; 
+  display: block;
+}
+
+.w-container {
+  /* max-width: 940px; */
+  margin-left: 100px;
+  margin-right: auto;
+} 
+
+.ki-1 {
+  display: flex;
+  gap: 40px;
+}
+
+.twoq {
+  margin-left: 35px;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  padding-top: 35px;
+  width: 100%;
+  display: flex;
+}
+
+
+.h2 {
+  font-size: 50px;
+  color: white;
+  margin-bottom: 10px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Space Mono, sans-serif;
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 120%;
+}
+
+
+.box {
+  background-image: url(Box-des.svg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-flow: column;
+  align-items: flex-end;
+  width: 330px;
+  height: 330px;
+  display: flex;
+}
+
+.img-ins {
+  margin: 36px 36px 10px;
+  text-align: right;
+}
+
+.box .space-18px {
+  margin: 15px 36px 60px;
+  color: white;
+  font-size: 18px;
+  font-family: Chakra Petch, sans-serif;
+}
+
+
+.custom-coursepage-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3f62c2', endColorstr='#7db9e8', GradientType=1);
+}
+
+img {
+  vertical-align: middle;
+  max-width: 100%;
+  display: inline-block;
+}
+
+.vid{
+  width: 150px;
+}
+
+.custom-coursepage-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  width: 50%;
+  margin-top: -30px;
+  color: #FFF;
+}
+
+.items {
+  height: 100vh;
+  background: transparent;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  cursor: pointer;
+  position: relative;
+}
+
+.custom-testimonial-title {
+  color: white;
+  font-family: Chakra Petch, sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.custom-testimonial-author {
+  color: #989898;
+  font-family: Chakra Petch, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.item {
+  width: 60%;
+  height: 219px;
+  background: #333;
+  margin-bottom: 22px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 2s ease;
+  transform: translateY(142px) scale(0.9);
+  opacity: .2;
+  /* display:flex; */
+  padding: 20px;
+
+}
+
+.item>div {
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.active {
+  opacity: 1;
+}
+
+.active>div {
+  opacity: 1;
+}
+
+.h2 {
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Chakra Petch, sans-serif;
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 120%;
+}
+
+.des {
+  color: white;
+  font-family: Chakra Petch, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 130%;
+  width: 80%;
+}
+
+.custom-profilepic-wrapper {
+  margin-bottom: 20px;
+  flex: 1;
+  width: 100%;
+  align-items: right;
+  float: right;
+  padding-right: 20px;
+}
+
+.custom-profilepic {
+  float: right;
+  align-items: right;
+  width: 50px;
+  height: 50px;
+  margin: 4px auto;
+}
+
+.custom-testimonial-content {
+  flex: 4;
+}
+
+.custom-testimonial-title {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 2px;
+
+}
+
+.custom-testimonial-author {
+  opacity: 0.5;
+
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
